@@ -11,9 +11,13 @@ dependencies = [
     "beautifulsoup4>=4.12.0",
 ]
 
+[project.optional-dependencies]
+viz = ["matplotlib>=3.8"]
+
 [project.scripts]
 meal-to-md = "meal_to_md:main"
 convert-raw-to-data = "convert_raw_to_data:main"
+extract-mains = "extract_mains:main"
 
 [tool.setuptools]
-py-modules = ["meal_to_md", "convert_raw_to_data"]
+py-modules = ["meal_to_md", "convert_raw_to_data", "extract_mains"]
