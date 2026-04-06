@@ -1,0 +1,6 @@
+*.egg-info
+.venv/
+.DS_Store
+uv.lock
+*.pyc
+*_files/

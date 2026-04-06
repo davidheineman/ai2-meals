@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai2-meals"
+version = "0.1.0"
+description = "Ai2 meals"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.12.0",
+]
+
+[project.scripts]
+meal-to-md = "meal_to_md:main"
+convert-raw-to-data = "convert_raw_to_data:main"
+
+[tool.setuptools]
+py-modules = ["meal_to_md", "convert_raw_to_data"]
