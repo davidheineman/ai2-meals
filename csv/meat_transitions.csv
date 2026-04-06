@@ -1,0 +1,28 @@
+from,to,count
+beef,beef,10
+beef,halibut,1
+beef,lamb,1
+beef,pork,11
+beef,salmon,1
+beef,shrimp,2
+beef,turkey,1
+cod,beef,1
+halibut,pork,1
+lamb,pork,1
+lamb,salmon,1
+pastrami,beef,1
+pastrami,shrimp,1
+pork,beef,11
+pork,pork,3
+pork,sandwich meat,2
+pork,turkey,5
+salmon,beef,1
+salmon,pork,1
+sandwich meat,beef,2
+shrimp,beef,1
+shrimp,cod,1
+shrimp,pork,2
+turkey,beef,2
+turkey,lamb,1
+turkey,pastrami,2
+turkey,shrimp,1
